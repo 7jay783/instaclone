@@ -16,4 +16,4 @@ const userSchema = new mongoose.Schema({
         required:true
     }
 })
-mongoose.model("user", userSchema)
+mongoose.model("User", userSchema)
